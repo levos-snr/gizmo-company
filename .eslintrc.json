@@ -1,7 +1,6 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
-  "rules":{
-      "no-unused-vars": "error",
-      "indent": ["error", 2]
+  "extends": ["next/core-web-vitals", "next/typescript", "prettier"],
+  "rules": {
+    "no-unused-vars": "error"
   }
 }

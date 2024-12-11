@@ -7,11 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky",
-    "pre-commit": "bun run lint --fix && git add -A ."
-  },
-  "lint-staged": {
-      "**/*": "prettier --write --ignore-unknown"
+    "prepare": "husky"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
@@ -76,6 +72,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9.16.0",
     "eslint-config-next": "15.0.4",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react": "^7.37.2",
     "globals": "^15.13.0",
     "postcss": "^8",
