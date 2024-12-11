@@ -1,0 +1,1 @@
+bunx --bun run commitlint --edit $1
