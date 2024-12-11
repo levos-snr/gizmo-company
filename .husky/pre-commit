@@ -1,2 +1,2 @@
 bun run pre-commit
-bunx --bun run lint-staged
+bun run lint-staged
