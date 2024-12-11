@@ -8,20 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky",
-    "format": "bunx --bun lint-staged"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "bun run test"
-    }
+    "pre-commit": "bun run lint --fix && git add -A ."
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "pretty-quick --staged",
-      "eslint --fix",
-      "git add ."
-    ]
+      "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
