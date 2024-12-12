@@ -1,0 +1,9 @@
+{"section": "Projects", "title": "Portfolio Website", "description": "A personal portfolio showcasing projects and skills.", "isCompleted": true}
+{"section": "Projects", "title": "E-commerce App", "description": "A fully functional e-commerce app with React and Node.js.", "isCompleted": true}
+{"section": "Projects", "title": "Chat Application", "description": "A real-time chat application using WebSocket and React.", "isCompleted": false}
+{"section": "Skills", "skill": "JavaScript", "proficiency": "Advanced", "isCompleted": true}
+{"section": "Skills", "skill": "React", "proficiency": "Advanced", "isCompleted": true}
+{"section": "Skills", "skill": "Node.js", "proficiency": "Intermediate", "isCompleted": false}
+{"section": "Contact", "method": "Email", "detail": "yourname@example.com", "isCompleted": true}
+{"section": "Contact", "method": "LinkedIn", "detail": "linkedin.com/in/yourname", "isCompleted": true}
+{"section": "Contact", "method": "Phone", "detail": "123-456-7890", "isCompleted": false}

@@ -10,6 +10,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^5.20.0",
     "@clerk/nextjs": "^6.9.0",
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "^1.2.1",
@@ -42,6 +43,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.0",
+    "convex": "^1.17.3",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.5.1",
     "husky": "^9.1.7",
